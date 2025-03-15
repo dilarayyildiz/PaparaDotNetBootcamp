@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week1Assigment", "Week1Assigment\Week1Assigment.csproj", "{227FCE5A-921E-48FB-B60E-BE5D2925DACC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{227FCE5A-921E-48FB-B60E-BE5D2925DACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{227FCE5A-921E-48FB-B60E-BE5D2925DACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{227FCE5A-921E-48FB-B60E-BE5D2925DACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{227FCE5A-921E-48FB-B60E-BE5D2925DACC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
