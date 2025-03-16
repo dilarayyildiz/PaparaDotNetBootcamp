@@ -122,7 +122,7 @@ public class MerchantInformationController : ControllerBase
     public IActionResult Delete([FromRoute] int id)
     {
         Merchant merchant = merchants.FirstOrDefault(x => x.Id == id);
-
+ 
         if (merchant == null) 
         { 
             return NotFound("No merchant found with given Id");
