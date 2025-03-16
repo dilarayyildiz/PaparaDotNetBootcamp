@@ -57,13 +57,15 @@ public class MerchantInformationController : ControllerBase
             OpenDate = new DateTime(1998, 12, 24)
         }
     };
-
+    
+    //Get all merchants
     [HttpGet("GetAll")]
     public IActionResult GetAll()
     {
         return Ok(merchants);
     }
     
+    //Get merchant by id
     [HttpGet("GetbyId/{id}")]
     public IActionResult Get([FromRoute] int id)
     {
@@ -74,6 +76,7 @@ public class MerchantInformationController : ControllerBase
         return Ok(merchants.FirstOrDefault(x => x.Id == id));
     }
     
+    //Create merchant
     [HttpPost("Post")]
     public IActionResult Post([FromBody] Merchant newMerchant)
     {
@@ -94,6 +97,7 @@ public class MerchantInformationController : ControllerBase
         
     }
     
+    //Update Merchant
     [HttpPut("{id}")]
     public IActionResult Put([FromRoute] int id , [FromBody] Merchant updatedMerchant)
     {
@@ -112,7 +116,8 @@ public class MerchantInformationController : ControllerBase
         return Ok(merchant);
         
     }
-
+    
+    //Delete Merchant
     [HttpDelete("{id}")]
     public IActionResult Delete([FromRoute] int id)
     {
