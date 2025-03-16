@@ -124,7 +124,7 @@ public class MerchantInformationController : ControllerBase
         Merchant merchant = merchants.FirstOrDefault(x => x.Id == id);
  
         if (merchant == null) 
-        { 
+        {  
             return NotFound("No merchant found with given Id");
         }
         merchants.Remove(merchant);
