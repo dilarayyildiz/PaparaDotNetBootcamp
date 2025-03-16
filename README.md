@@ -13,7 +13,6 @@ This .NET Web API provides CRUD operations for managing merchants while adhering
 - Technologies Used
 - Error Handling
 - Example Requests
-- Contact
 
 ---
 
